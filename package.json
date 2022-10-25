@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@types/node": "^18.7.5",
+    "googleapis": "^105.0.0",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "tsc --watch",
+    "updateConsts": "curl https://raw.githubusercontent.com/frzyc/genshin-optimizer/master/src/Types/consts.ts -O",
+    "updateGlobal": "curl https://raw.githubusercontent.com/frzyc/genshin-optimizer/master/src/Types/global.d.ts -O",
+    "update": "npm run updateConsts && npm run updateGlobal"
+  },
+  "dependencies": {
+    "fuse.js": "^6.6.2",
+    "prompt-sync": "^4.2.0"
+  }
+}

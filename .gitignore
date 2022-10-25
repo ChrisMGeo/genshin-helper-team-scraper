@@ -1,0 +1,6 @@
+node_modules/
+credentials.json
+/index.js
+/consts.js
+/global.d.ts
+/consts.ts
